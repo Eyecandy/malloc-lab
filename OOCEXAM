@@ -1,0 +1,62 @@
+
+Object-Oriented Analysis and Design
+- Able to explain and compare software development approaches:, e.g. traditional and object-oriented approach
+- Able to explain Object Oriented Analysis and Design (OOAD)
+- Able to explain the benefit of OOAD in details, e.g. explain how would it help it would speed up the development or increase quality of the design
+- Understand UML (you don’t need to memorize all the symbols or relationships) and how you can use UML in OOAD (prolly need more description of each type of UML)
+- You may be given a case to analyses and you will have to draw a UML (don’t worry about the relationships) and explain your diagram  (can someone find one of these and copy paste?)
+- You may be given a UML and you will have to explain (same as above)
+
+Inversion of Control (IoC) and Dependency Injection (DI)
+- What is control in programming?
+
+- Explain flow of control with sample codes (I may give you use case for the sample code)
+- Explain inversion of control
+- Explain how to implement inversion of control
+- Explain dependency injection
+- What is IoC container?
+
+IoC Container is a framework for managing the Inversion of Control. It handles creation of object, dependent and inject them automatically.
+
+
+The interface org.springframework.context.ApplicationContext represents the Spring IoC container and is responsible for instantiating, configuring, and assembling the aforementioned beans. The container gets its instructions on what objects to instantiate, configure, and assemble by reading configuration metadata. The configuration metadata is represented in XML, Java annotations, or Java code. It allows you to express the objects that compose your application and the rich interdependencies between such objects.
+
+Unit Testing
+- What is unit testing?
+- How do you do a unit testing with maven?
+- Given a problem or a class, you will have to list what sort of tests that should be done.
+Software and System Architecture Design
+- Given a case and list of system requirements, e.g. support of ORM, load balancing, and etc., you will have to draw up a diagram and explain the design you make.
+- You should understand and use layer architectural design in your problem.
+
+Entity and Database Management Layer
+- Draw up a diagram of typical components in the database management layer
+- How would you improve your database performance? (e.g. load balance read/write (but how do you guarantee consistency at the same time), indexing (how does it help)).
+- You will be given a problem and you will have to draw some entities.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EXPLAIN TRADTIONAL SOFTWARE APPROACH:
+In object-oriented approach, a system is viewed as a set
+of objects.We know that the Object-Oriented Modelling (OOM) technique visualizes things in an application by using models organized around objects.
+
+
+Traditional Software Development
+Traditional methodologies are characterized by a sequential series of steps like requirement definition, planning, building, testing and deployment. First, the client requirements are carefully documented to the fullest extent. Then, the general architecture of the software is visualized and the actual coding commences. Then comes the various types of testing and the final deployment. The basic idea here is the detailed visualization of the finished project before the building starts, and working one’s way through to the visualized finished structure.
+
+Comparison:
